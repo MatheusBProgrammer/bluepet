@@ -7,13 +7,13 @@ function Home() {
   const buttonSpringStyle = useSpring({
     from: { transform: "translateX(-300%)" },
     to: { transform: "translateX(0%)" },
-    config: { duration: 1000 },
+    config: { duration: 500 },
   });
 
   const textSpringStyle = useSpring({
-    from: { transform: "scale(0.5)" },
+    from: { transform: "scale(0.01)" },
     to: { transform: "scale(1)" },
-    config: { duration: 1000 },
+    config: { duration: 500 },
   });
 
   return (

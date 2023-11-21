@@ -1,0 +1,75 @@
+.container {
+  width: 100%;
+  margin-top: 0;
+  background-color: rgba(95, 205, 206, 0.5);
+  display: flex;
+  flex-direction: column;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+
+.content {
+  margin-bottom: 1em;
+  padding: 20px;
+  border-radius: 15px;
+  width: 50%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+}
+.header p {
+  margin-top: 1em;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .content {
+    width: 90%;
+  }
+}
+.content button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  background-color: rgba(204, 235, 86, 0.7);
+}
+.content button:hover {
+  background-color: #cceb56;
+}
+.links a {
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid #e2f97d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: #333;
+  font-size: 1.1em;
+  cursor: pointer;
+  padding: 1em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.links a:hover {
+  background-color: #e2f97d;
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  .links .about {
+    display: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .links .appointments,
+  .links .products {
+    display: none;
+  }
+}
