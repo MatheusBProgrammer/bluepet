@@ -1,0 +1,30 @@
+.container {
+  width: 15em;
+  height: 100px;
+  display: flex;
+  background-color: rgba(204, 235, 86, 0.7);
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 15px;
+  overflow: hidden;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0.5em;
+  margin-left: 1em;
+}
+.container a {
+  padding: 2em;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 500;
+}
+.container a:hover {
+  background-color: rgba(204, 235, 86, 0.7);
+}
+
+@media (max-width-500px) {
+  .container a {
+    font-size: 0.5em;
+  }
+}

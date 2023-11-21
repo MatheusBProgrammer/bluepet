@@ -1,0 +1,60 @@
+.container {
+  width: 100%;
+  margin-top: 0;
+  background-color: #cceb56; /*#5fcd*/
+  display: flex;
+  height: 10%;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+}
+.logo {
+  height: 100%;
+}
+
+.links {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.links a {
+  text-align: center;
+  text-decoration: none;
+  border-right: 1px solid #e2f97d;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 1.1em;
+  cursor: pointer;
+  width: 15em;
+  padding: 5em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links a:hover {
+  background-color: #e2f97d;
+}
+.links .about {
+  border: none;
+}
+@media (max-width: 1200px) {
+  .links .about {
+    display: none;
+  }
+  .links .appointments {
+    border: none;
+  }
+}
+
+@media (max-width: 800px) {
+  .links .appointments {
+    display: none;
+  }
+  .links .products {
+    border: none;
+  }
+}

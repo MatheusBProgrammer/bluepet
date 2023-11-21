@@ -1,0 +1,36 @@
+.container img {
+  padding: 0;
+  margin: 0;
+  height: 8em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  background-color: #5fcdce;
+}
+.contact {
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.contact svg {
+  margin-left: 0.5em;
+  color: #cceb56;
+  border: 1px solid #cce5b6;
+  border-radius: 50%;
+  padding: 3px;
+}
+@media (max-width: 500px) {
+  .contact {
+    display: none;
+  }
+  .container {
+    justify-content: center;
+  }
+}
