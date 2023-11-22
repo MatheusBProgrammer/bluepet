@@ -1,6 +1,36 @@
 .container {
-  padding: 10px;
-  margin: 0;
-  height: 100vh;
-  background-color: rgba(95, 205, 206, 0.5);
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.iconContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.icon {
+  font-size: 2rem;
+  margin: 0 15px;
+  color: #333; /* Change this color to match your theme */
+  transition: color 0.3s ease;
+}
+
+.icon:hover {
+  color: #007bff; /* Change this color for hover effect */
 }
